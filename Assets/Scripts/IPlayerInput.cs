@@ -10,6 +10,7 @@ public interface IPlayerInput
     float Horizontal { get; }
     void Tick();
     bool PausePressed { get; }
+    bool SelectionPressed { get; }
     Vector2 MousePosition { get; }
     bool GetKeyDown(KeyCode keyCode);
 }
