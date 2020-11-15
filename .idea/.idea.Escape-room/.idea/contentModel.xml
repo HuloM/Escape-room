@@ -25,6 +25,7 @@
             <e p="ItemRaycaster.cs" t="Include" />
             <e p="LootItemHolder.cs" t="Include" />
             <e p="LootSystem.cs" t="Include" />
+            <e p="StatMod.cs" t="Include" />
             <e p="UseAction.cs" t="Include" />
             <e p="UseMode.cs" t="Include" />
           </e>
@@ -33,13 +34,20 @@
           <e p="NavmeshMover.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
+          <e p="Puzzles" t="Include">
+            <e p="IPuzzle.cs" t="Include" />
+            <e p="KeypadPuzzle.cs" t="Include" />
+          </e>
           <e p="Rotator.cs" t="Include" />
           <e p="StateMachine" t="Include">
-            <e p="EntityStateMachine.cs" t="Include" />
             <e p="GameStateMachine.cs" t="Include" />
             <e p="IState.cs" t="Include" />
             <e p="StateMachine.cs" t="Include" />
             <e p="StateTransition.cs" t="Include" />
+          </e>
+          <e p="Stats" t="Include">
+            <e p="Stats.cs" t="Include" />
+            <e p="StatType.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Crosshair.cs" t="Include" />
@@ -53,6 +61,42 @@
             <e p="UIInventoryPanel.cs" t="Include" />
             <e p="UIInventorySlot.cs" t="Include" />
             <e p="UISelectionCursor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Socket Pack" t="Include">
+          <e p="Shader" t="Include">
+            <e p="Glass Shader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
         <e p="UIBinding.cs" t="Include" />

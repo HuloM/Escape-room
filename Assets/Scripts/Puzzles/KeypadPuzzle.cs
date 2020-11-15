@@ -1,5 +1,7 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class KeypadPuzzle : MonoBehaviour, IPuzzle
 {
@@ -7,7 +9,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
     [SerializeField] private int keyPadNumber;
     [SerializeField] private GameObject UIBoard;
     [SerializeField] private TMP_Text keyPadNumberText;
-    public bool CompleteFlag { get; set; }
+    [SerializeField] public bool CompleteFlag { get; set; }
     public IItem RewardItem => _rewardItem;
     public GameObject Player { get; }
     public string playerInputNumber;
@@ -33,7 +35,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
         }
     }
 
-    private void GiveRewardItem() => Player.GetComponent<Inventory>().Equip(RewardItem);
+    private void GiveRewardItem() => _rewardItem.gameObject.SetActive(true);
 
     public int NumberGeneration() => Random.Range(10000,99999);
 
@@ -54,7 +56,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
     public void AddNumber(string numString)
     {
         playerInputNumber += numString;
-        playerNumber = int.Parse(playerInputNumber);
+        playerNumber = Int32.Parse(playerInputNumber);
     }
 
     public void NumberChanged() => playerInputNumber = "";
