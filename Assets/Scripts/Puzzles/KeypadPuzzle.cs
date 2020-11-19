@@ -55,7 +55,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
 
     public void AddNumber(string numString)
     {
-        playerInputNumber += numString;
+        playerInputNumber = numString;
         playerNumber = Int32.Parse(playerInputNumber);
     }
 
