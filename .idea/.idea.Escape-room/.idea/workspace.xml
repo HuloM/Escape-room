@@ -10,10 +10,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/levelSave.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +76,7 @@
       <workItem from="1605416277677" duration="271000" />
       <workItem from="1605591401491" duration="185000" />
       <workItem from="1605758183034" duration="595000" />
+      <workItem from="1605786310793" duration="4719000" />
     </task>
     <servers />
   </component>
@@ -72,4 +85,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup" timestamp="1605790791383">
+      <screen x="1920" y="-629" width="1080" height="1920" />
+    </state>
+    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1605790791383" />
+  </component>
 </project>

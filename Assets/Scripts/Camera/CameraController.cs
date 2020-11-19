@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
@@ -10,7 +11,10 @@ public class CameraController : MonoBehaviour
             return;
         
         float mouseRotation = Input.GetAxis("Mouse Y");
-        _tilt = Mathf.Clamp(_tilt - mouseRotation, -15f, 15f);
+        _tilt = Mathf.Clamp(_tilt - mouseRotation, -90f, 45f);
         transform.localRotation = Quaternion.Euler(_tilt, 0f, 0f);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
