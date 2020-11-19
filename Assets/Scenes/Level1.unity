@@ -2006,6 +2006,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7911415819656863872, guid: 2fa261c2e0e0cfc488f33de7a0c4f906,
         type: 3}
+      propertyPath: _actions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911415819656863872, guid: 2fa261c2e0e0cfc488f33de7a0c4f906,
+        type: 3}
       propertyPath: _crosshairDefinition
       value: 
       objectReference: {fileID: 11400000, guid: c3099bdbc94e4064c8223f1563cbe86c,
