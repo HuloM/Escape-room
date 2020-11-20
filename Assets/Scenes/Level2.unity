@@ -10499,18 +10499,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2637322269999765141}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1060480664 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2637322269816631309, guid: 7c72d747ca9bd4a49bddedc5e77ef144,
-    type: 3}
-  m_PrefabInstance: {fileID: 2637322269999765141}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1075388022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467230, guid: 7b45b788a1417934faed26ad07e2f502,
@@ -16962,7 +16950,6 @@ MonoBehaviour:
   keyPadNumber: 0
   UIBoard: {fileID: 568558773}
   keyPadNumberText: {fileID: 698115790}
-  DeselectionText: {fileID: 1060480664}
   playerInputNumber: 
   playerNumber: 0
 --- !u!114 &1869676955
@@ -20735,6 +20722,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Deselection Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637322269816631299, guid: 7c72d747ca9bd4a49bddedc5e77ef144,
+        type: 3}
+      propertyPath: m_TagString
+      value: DeselectionText
       objectReference: {fileID: 0}
     - target: {fileID: 2637322269816631309, guid: 7c72d747ca9bd4a49bddedc5e77ef144,
         type: 3}
