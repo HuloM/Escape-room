@@ -12,20 +12,25 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/levelSave.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +82,7 @@
       <workItem from="1605591401491" duration="185000" />
       <workItem from="1605758183034" duration="595000" />
       <workItem from="1605786310793" duration="5397000" />
-      <workItem from="1605831346733" duration="680000" />
+      <workItem from="1605831346733" duration="4351000" />
     </task>
     <servers />
   </component>
@@ -87,6 +92,10 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
+    <state x="2116" y="146" key="run.anything.popup" timestamp="1605834484071">
+      <screen x="1920" y="-629" width="1080" height="1920" />
+    </state>
+    <state x="2116" y="146" key="run.anything.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1605834484071" />
     <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup" timestamp="1605790791383">
       <screen x="1920" y="-629" width="1080" height="1920" />
     </state>
