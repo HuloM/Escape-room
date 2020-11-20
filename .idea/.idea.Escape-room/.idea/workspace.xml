@@ -19,13 +19,13 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
       </list>
     </option>
   </component>
@@ -76,7 +76,8 @@
       <workItem from="1605416277677" duration="271000" />
       <workItem from="1605591401491" duration="185000" />
       <workItem from="1605758183034" duration="595000" />
-      <workItem from="1605786310793" duration="4719000" />
+      <workItem from="1605786310793" duration="5397000" />
+      <workItem from="1605831346733" duration="680000" />
     </task>
     <servers />
   </component>
