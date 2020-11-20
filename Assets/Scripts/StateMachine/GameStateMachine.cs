@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameStateMachine : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class GameStateMachine : MonoBehaviour
     
     private StateMachine _stateMachine;
     public Type CurrentStateType => _stateMachine.CurrentState.GetType();
+
+    public SaveData _saveData;
+    private SaveDataSerializer _saveDataSerializer;
 
     private void Awake()
     {
@@ -27,6 +31,7 @@ public class GameStateMachine : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         
         _stateMachine = new StateMachine();
+        SetUpSaveData();
         _stateMachine.OnStateChanged += state => OnGameStateChanged?.Invoke(state);
 
         var menu = new Menu();
@@ -41,7 +46,9 @@ public class GameStateMachine : MonoBehaviour
         _stateMachine.AddTransition(play, pause, () => PlayerInput.Instance.PausePressed);
         _stateMachine.AddTransition(pause, play, () => PlayerInput.Instance.PausePressed);
         _stateMachine.AddTransition(pause, menu, () => RestartButton.Pressed);
+        
     }
+
 
     private void Update()
     {
@@ -52,6 +59,26 @@ public class GameStateMachine : MonoBehaviour
     {
         _stateMachine?.SetState(null);
         Debug.Log("Destroyed GameStateMachine");
+    }
+    
+    private void SetUpSaveData()
+    {
+        _saveDataSerializer = new SaveDataSerializer();
+        _saveData = _saveDataSerializer.Load();
+
+        if (_saveData == null)
+        {
+            _saveData = new SaveData();
+            _saveData.levelTwoAccess = false;
+            _saveDataSerializer.save(_saveData);
+        }
+    }
+
+    public void LevelTwoAccessGranted()
+    {
+        _saveData.levelTwoAccess = true;
+
+        _saveDataSerializer.save(_saveData);
     }
 }
 

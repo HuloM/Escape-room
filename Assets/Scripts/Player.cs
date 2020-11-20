@@ -38,5 +38,8 @@ public class Player : MonoBehaviour
         
        _mover.Tick();
        _rotator.Tick();
+       
+       if(Input.GetKeyDown(KeyCode.M))
+           FindObjectOfType<GameStateMachine>().LevelTwoAccessGranted();
     }
 }

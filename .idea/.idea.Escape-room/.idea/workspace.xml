@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7d138-57a2-4cbe-81b5-ea3859212ce0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="45f7d138-57a2-4cbe-81b5-ea3859212ce0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,14 +11,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
-        <option value="$PROJECT_DIR$/Assets/DoorNearPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
       </list>
     </option>
   </component>
@@ -62,7 +49,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -93,7 +79,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605416241993</updated>
       <workItem from="1605416277677" duration="271000" />
-      <workItem from="1605670557591" duration="3959000" />
+      <workItem from="1605591401491" duration="185000" />
+      <workItem from="1605758183034" duration="595000" />
+      <workItem from="1605786310793" duration="5397000" />
+      <workItem from="1605831346733" duration="4351000" />
     </task>
     <servers />
   </component>
@@ -102,21 +91,14 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605674669006">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2116" y="146" key="run.anything.popup" timestamp="1605834484071">
+      <screen x="1920" y="-629" width="1080" height="1920" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605674669006" />
+    <state x="2116" y="146" key="run.anything.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1605834484071" />
+    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup" timestamp="1605790791383">
+      <screen x="1920" y="-629" width="1080" height="1920" />
+    </state>
+    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1605790791383" />
   </component>
 </project>
