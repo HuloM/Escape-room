@@ -26,10 +26,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interactable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
       </list>
     </option>
@@ -82,7 +82,7 @@
       <workItem from="1605591401491" duration="185000" />
       <workItem from="1605758183034" duration="595000" />
       <workItem from="1605786310793" duration="5397000" />
-      <workItem from="1605831346733" duration="4351000" />
+      <workItem from="1605831346733" duration="5090000" />
     </task>
     <servers />
   </component>

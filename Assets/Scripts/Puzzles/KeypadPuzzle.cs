@@ -12,7 +12,8 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
     [SerializeField] private int keyPadNumber;
     [SerializeField] private GameObject UIBoard;
     [SerializeField] private TMP_Text keyPadNumberText;
-    [SerializeField] private TMP_Text DeselectionText;
+    
+    public TMP_Text DeselectionText { get; set; }
     public bool CompleteFlag { get; set; }
     public IItem RewardItem => _rewardItem;
     public Player _player { get; set; }
@@ -26,6 +27,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
         if(RewardItem == null)
             NoRewardItem();
         CompleteFlag = false;
+        DeselectionText = GameObject.FindGameObjectWithTag("DeselectionText").GetComponent<TMP_Text>();
         keyPadNumber = NumberGeneration();
         keyPadNumberText.text = keyPadNumber.ToString();
         _player = FindObjectOfType<Player>();

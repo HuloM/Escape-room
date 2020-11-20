@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 public interface IPuzzle
 {
@@ -6,6 +7,7 @@ public interface IPuzzle
     
     IItem RewardItem { get; }
     Player _player { get; set; }
+    TMP_Text DeselectionText { get; set; }
     void NoRewardItem();
 
 }
