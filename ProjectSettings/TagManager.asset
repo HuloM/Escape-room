@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interactable
   - DeselectionText
+  - Music
   layers:
   - Default
   - TransparentFX

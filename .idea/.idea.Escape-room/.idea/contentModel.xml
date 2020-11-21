@@ -46,6 +46,7 @@
           <e p="IPlayerInput.cs" t="Include" />
           <e p="levelSave.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
+          <e p="Music.cs" t="Include" />
           <e p="NavmeshMover.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
