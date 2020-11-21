@@ -147,12 +147,20 @@ public class Pause : IState
     public void OnEnter()
     {
         Active = true;
+        ToggleCursor(true);
         Time.timeScale = 0f;
+    }
+
+    private void ToggleCursor(bool isActive)
+    {
+        Cursor.lockState = isActive ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = isActive;
     }
 
     public void OnExit()
     {
         Active = false;
+        ToggleCursor(false);
         Time.timeScale = 1f;
     }
 }

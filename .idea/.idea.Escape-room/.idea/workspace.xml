@@ -45,9 +45,7 @@
         <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interactable.cs" />
@@ -59,6 +57,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPC Quest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPCQuest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/RestartButton.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +115,7 @@
       <workItem from="1605786310793" duration="5397000" />
       <workItem from="1605831346733" duration="5090000" />
       <workItem from="1605908781792" duration="1887000" />
+      <workItem from="1605931695475" duration="671000" />
     </task>
     <servers />
   </component>
@@ -131,6 +134,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2116" y="146" key="run.anything.popup" timestamp="1605834484071">

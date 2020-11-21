@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 8112285388814202948}
   - component: {fileID: 8201297744154436720}
   - component: {fileID: 1424848458}
-  - component: {fileID: 1050218488}
+  - component: {fileID: 7407541350559382514}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactionText: {fileID: 0}
---- !u!95 &1050218488
+--- !u!95 &7407541350559382514
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

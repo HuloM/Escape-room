@@ -9183,25 +9183,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8112285389312306011}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1424848458
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424848457}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: cdf40ff5ebc131e4da06783856e717b3, type: 3}
-  m_Controller: {fileID: 9100000, guid: d41835a10b3d1ca43b8239bc2788576b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1438920632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12581,8 +12562,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.009177155, y: 0.02015545, z: 0.082387425}
-  m_Center: {x: 0.0000013606708, y: 0.00000845641, z: -0.031332742}
+  m_Size: {x: 0.18109931, y: 0.17849413, z: 0.34669787}
+  m_Center: {x: 0.08605358, y: 0.07917771, z: -0.027788999}
 --- !u!114 &1694774313
 MonoBehaviour:
   m_ObjectHideFlags: 0
