@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f7d138-57a2-4cbe-81b5-ea3859212ce0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NPCScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPCScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Animations/glass_panel_1_with_door.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Animations/glass_panel_1_with_door.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/NPCScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NPCScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,15 +57,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPC Quest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPCQuest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MusicButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
-        <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Riddle.cs" />
       </list>
     </option>
   </component>
