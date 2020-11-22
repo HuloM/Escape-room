@@ -7,6 +7,7 @@ TagManager:
   - Interactable
   - DeselectionText
   - Music
+  - CompletePuzzle
   layers:
   - Default
   - TransparentFX

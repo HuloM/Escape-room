@@ -37,7 +37,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/NPCScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ResetButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFC774E3-9F15-4E8B-ACC0-AAE5397B53AE/d9/ba235427/Cursor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -52,21 +54,25 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPC Quest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPCQuest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MusicButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
-        <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Riddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/levelSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ResetButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/FuzePuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/FuzePuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Riddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interact.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +151,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2288" y="16" key="RiderGenerateDialog" timestamp="1606082948999">
+      <screen x="1920" y="-629" width="1080" height="1920" />
+    </state>
+    <state x="2288" y="16" key="RiderGenerateDialog/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1606082948999" />
     <state x="2029" y="-524" width="1053" height="1906" key="dock-window-1" timestamp="1606018868816">
       <screen x="1920" y="-629" width="1080" height="1920" />
     </state>
@@ -153,9 +163,9 @@
       <screen x="1920" y="-629" width="1080" height="1920" />
     </state>
     <state x="2116" y="146" key="run.anything.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1605834484071" />
-    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup" timestamp="1605932124526">
+    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup" timestamp="1606082399677">
       <screen x="1920" y="-629" width="1080" height="1920" />
     </state>
-    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1605932124526" />
+    <state x="2123" y="-184" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.156.1920.1080/1920.-629.1080.1920@1920.-629.1080.1920" timestamp="1606082399677" />
   </component>
 </project>

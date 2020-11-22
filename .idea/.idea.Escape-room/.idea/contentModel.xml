@@ -53,6 +53,8 @@
           <e p="PlayerInput.cs" t="Include" />
           <e p="Puzzles" t="Include">
             <e p="ComputerLights.cs" t="Include" />
+            <e p="FuzePuzzle.cs" t="Include" />
+            <e p="Interact.cs" t="Include" />
             <e p="IPuzzle.cs" t="Include" />
             <e p="KeypadPuzzle.cs" t="Include" />
             <e p="Riddle.cs" t="Include" />

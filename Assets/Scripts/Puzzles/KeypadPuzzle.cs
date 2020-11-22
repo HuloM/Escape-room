@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class KeypadPuzzle : MonoBehaviour, IPuzzle
@@ -19,18 +20,19 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
     public Player _player { get; set; }
     public string playerInputNumber;
     public int playerNumber = 0;
-    
-
+    public Slider _CompletePuzzleSlider { get; set; }
 
     private void Awake()
     {
         if(RewardItem == null)
             NoRewardItem();
         CompleteFlag = false;
-        DeselectionText = GameObject.FindGameObjectWithTag("DeselectionText").GetComponent<TMP_Text>();
+        DeselectionText = GameObject.FindGameObjectWithTag(
+            "DeselectionText").GetComponent<TMP_Text>();
         keyPadNumber = NumberGeneration();
         keyPadNumberText.text = keyPadNumber.ToString();
         _player = FindObjectOfType<Player>();
+        _CompletePuzzleSlider = GameObject.FindGameObjectWithTag("CompletePuzzle").GetComponent<Slider>();
     }
 
     private void Update()
@@ -39,10 +41,10 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
             UIBoard, _player, 
             gameObject, DeselectionText);
 
-        if (playerNumber == keyPadNumber)
+        if (playerNumber == keyPadNumber && !CompleteFlag)
         {
-            GiveRewardItem();
             CompleteFlag = true;
+            _CompletePuzzleSlider.value += 1;
         }
     }
 
@@ -53,6 +55,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
     public void NoRewardItem() => Debug.Log(
         "Please add a reward item to be given on completion");
 
+
     public void AddNumber(string numString)
     {
         playerInputNumber = numString;
@@ -60,30 +63,4 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
     }
 
     public void NumberChanged() => playerInputNumber = "";
-}
-
-public class Interact
-{
-    public static void InteractWithObject(
-        GameObject uiBoard, Player playergameObject, 
-        GameObject interactionObject, TMP_Text tmpText)
-    {
-        var dist = Vector3.Distance(
-            interactionObject.transform.position,
-            playergameObject.transform.position);
-
-        if (dist < 2 && PlayerInput.Instance.SelectionPressed)
-            PuzzleIsActive(true, tmpText, uiBoard);
-        else if (PlayerInput.Instance.DeSelectionPressed || dist > 2)
-            PuzzleIsActive(false, tmpText, uiBoard);
-    }
-    
-
-    private static void PuzzleIsActive(bool isActive, TMP_Text tmpText, GameObject uiBoard)
-    {
-        Cursor.lockState = isActive? CursorLockMode.None : CursorLockMode.Locked;
-        Cursor.visible = isActive;
-        tmpText.enabled = isActive;
-        uiBoard.SetActive(isActive);
-    }
 }

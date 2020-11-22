@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class NPCScript : MonoBehaviour, IPuzzle
@@ -26,6 +27,8 @@ public class NPCScript : MonoBehaviour, IPuzzle
         CompleteFlag = false;
         DeselectionText = GameObject.FindGameObjectWithTag("DeselectionText").GetComponent<TMP_Text>();
         _player = FindObjectOfType<Player>();
+        _CompletePuzzleSlider = GameObject.FindGameObjectWithTag(
+            "CompletePuzzle").GetComponent<Slider>();
     }
 
     private void Update()
@@ -33,12 +36,16 @@ public class NPCScript : MonoBehaviour, IPuzzle
         Interact.InteractWithObject(
             UIBoard, _player, 
             gameObject, DeselectionText);
-        if(PlayerInput.Instance.SelectionPressed)
-            foreach(Animator animator in  Animators)
+        if (PlayerInput.Instance.SelectionPressed)
+        {
+            foreach (Animator animator in Animators)
                 animator.SetBool(TalkedWithNpc, true);
+            _CompletePuzzleSlider.value += 1f;
+        }
     }
 
     public void NoRewardItem() => Debug.Log(
         "Please add a reward item to be given on completion");
-    
+
+    public Slider _CompletePuzzleSlider { get; set; }
 }

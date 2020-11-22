@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Riddle : MonoBehaviour, IPuzzle
@@ -25,8 +26,11 @@ public class Riddle : MonoBehaviour, IPuzzle
         if(RewardItem == null)
             NoRewardItem();
         CompleteFlag = false;
-        DeselectionText = GameObject.FindGameObjectWithTag("DeselectionText").GetComponent<TMP_Text>();
+        DeselectionText = GameObject.FindGameObjectWithTag(
+            "DeselectionText").GetComponent<TMP_Text>();
         _player = FindObjectOfType<Player>();
+        _CompletePuzzleSlider = GameObject.FindGameObjectWithTag(
+            "CompletePuzzle").GetComponent<Slider>();
     }
 
     private void Update()
@@ -35,10 +39,11 @@ public class Riddle : MonoBehaviour, IPuzzle
             UIBoard, _player, 
             gameObject, DeselectionText);
 
-        if (playerAnswer.Equals(answer, StringComparison.OrdinalIgnoreCase))
+        if (playerAnswer.Equals(answer, StringComparison.OrdinalIgnoreCase) && !CompleteFlag)
         {
             CompleteFlag = true;
             gameObject.GetComponent<Outline>().OutlineColor = Color.green;
+            _CompletePuzzleSlider.value += 1f;
         }
     }
 
@@ -46,6 +51,8 @@ public class Riddle : MonoBehaviour, IPuzzle
 
     public void NoRewardItem() => Debug.Log(
         "Please add a reward item to be given on completion");
+
+    public Slider _CompletePuzzleSlider { get; set; }
 
     public void SubmitAnswer(string answer2)
     {
