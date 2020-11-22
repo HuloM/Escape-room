@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public interface IPuzzle
 {
-    bool CompleteFlag { get; }
+    bool CompleteFlag { get; set; }
     
     IItem RewardItem { get; }
     Player _player { get; set; }
