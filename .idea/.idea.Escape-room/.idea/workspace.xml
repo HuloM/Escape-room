@@ -62,10 +62,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Riddle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/levelSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
       </list>
     </option>
   </component>

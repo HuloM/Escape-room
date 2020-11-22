@@ -82,6 +82,11 @@ public class GameStateMachine : MonoBehaviour
 
         _saveDataSerializer.save(_saveData);
     }
+
+    public void reset()
+    {
+        LevelTwoAccessGranted(false);
+    }
 }
 
 public class Menu : IState
