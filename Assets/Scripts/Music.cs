@@ -5,19 +5,24 @@ public class Music : MonoBehaviour
     private AudioSource _audioSource;
     private void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
         _audioSource = GetComponent<AudioSource>();
     }
  
     public void PlayMusic()
     {
-        if (_audioSource.isPlaying) return;
-        _audioSource.Play();
+        _audioSource.UnPause();
     }
  
     public void StopMusic()
     {
-        _audioSource.Stop();
-        _audioSource.gameObject.SetActive(false);
+        _audioSource.Pause();
+    }
+
+    public void ToggelMusic()
+    {
+        if(_audioSource.isPlaying)
+            StopMusic();
+        else 
+            PlayMusic();
     }
 }

@@ -584,7 +584,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 108167793}
         m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: StopMusic
+        m_MethodName: ToggelMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
