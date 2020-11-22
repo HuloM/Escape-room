@@ -44,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
@@ -61,6 +60,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
         <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +116,7 @@
       <workItem from="1605831346733" duration="5090000" />
       <workItem from="1605908781792" duration="3449000" />
       <workItem from="1606016511928" duration="455000" />
-      <workItem from="1606018190460" duration="671000" />
+      <workItem from="1606018190460" duration="1133000" />
     </task>
     <servers />
   </component>
