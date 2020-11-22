@@ -19,6 +19,7 @@
             <e p="Outline.cs" t="Include" />
           </e>
         </e>
+        <e p="RetrivePuzzle.cs" t="Include" />
         <e p="Sci-Fi Styled Modular Pack" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>

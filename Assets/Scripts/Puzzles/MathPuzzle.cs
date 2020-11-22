@@ -46,6 +46,7 @@ public class MathPuzzle : MonoBehaviour, IPuzzle
         {
             CompleteFlag = true;
             _CompletePuzzleSlider.value += 1;
+            gameObject.GetComponent<Outline>().OutlineColor = Color.green;
         }
     }
 
