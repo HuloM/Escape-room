@@ -26,6 +26,9 @@ public class InteractRaycast : MonoBehaviour
                 _outline.enabled = true;
                 if (_interactionText != null)
                     _interactionText.enabled = true;
+                Item item;
+                if (hit.collider.gameObject.TryGetComponent(out item) && PlayerInput.Instance.SelectionPressed)
+                    FindObjectOfType<Player>().GetComponent<Inventory>().Equip(item);
             }
         }
         else if (_outline != null)

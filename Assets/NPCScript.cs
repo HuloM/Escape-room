@@ -23,6 +23,7 @@ public class NPCScript : MonoBehaviour, IPuzzle
         if(RewardItem == null)
             NoRewardItem();
         CompleteFlag = false;
+        DeselectionText = GameObject.FindGameObjectWithTag("DeselectionText").GetComponent<TMP_Text>();
         _player = FindObjectOfType<Player>();
     }
 
@@ -32,10 +33,6 @@ public class NPCScript : MonoBehaviour, IPuzzle
             UIBoard, _player, 
             gameObject, DeselectionText);
     }
-
-    private void GiveRewardItem() => _rewardItem.gameObject.SetActive(true);
-
-    public int NumberGeneration() => Random.Range(10000,99999);
 
     public void NoRewardItem() => Debug.Log(
         "Please add a reward item to be given on completion");
