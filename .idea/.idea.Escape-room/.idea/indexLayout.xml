@@ -12,7 +12,6 @@
       <Path>Library/PackageCache/com.unity.scriptablebuildpipeline@1.7.3</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.18</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.1</Path>
-      <Path>Library/PackageCache/com.unity.timeline@1.2.6</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
