@@ -77,6 +77,7 @@ public class Interact
         else if (PlayerInput.Instance.DeSelectionPressed || dist > 2)
             PuzzleIsActive(false, tmpText, uiBoard);
     }
+    
 
     private static void PuzzleIsActive(bool isActive, TMP_Text tmpText, GameObject uiBoard)
     {

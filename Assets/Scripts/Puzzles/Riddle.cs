@@ -4,20 +4,21 @@ using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class NPCScript : MonoBehaviour, IPuzzle
+public class Riddle : MonoBehaviour, IPuzzle
 {
     
     
     [SerializeField] private Item _rewardItem;
+    [SerializeField] private string answer;
     [SerializeField] private GameObject UIBoard;
 
     public TMP_Text DeselectionText { get; set; }
     public bool CompleteFlag { get; set; }
     public IItem RewardItem => _rewardItem;
     public Player _player { get; set; }
+    public string playerAnswer;
 
-    public Animator[] Animators;
-    private static readonly int TalkedWithNpc = Animator.StringToHash("talked_with_npc");
+
 
     private void Awake()
     {
@@ -33,12 +34,23 @@ public class NPCScript : MonoBehaviour, IPuzzle
         Interact.InteractWithObject(
             UIBoard, _player, 
             gameObject, DeselectionText);
-        if(PlayerInput.Instance.SelectionPressed)
-            foreach(Animator animator in  Animators)
-                animator.SetBool(TalkedWithNpc, true);
+
+        if (playerAnswer.Equals(answer, StringComparison.OrdinalIgnoreCase))
+        {
+            CompleteFlag = true;
+            gameObject.GetComponent<Outline>().OutlineColor = Color.green;
+        }
     }
+
+    private void GiveRewardItem() => _rewardItem.gameObject.SetActive(true);
 
     public void NoRewardItem() => Debug.Log(
         "Please add a reward item to be given on completion");
-    
+
+    public void SubmitAnswer(string answer2)
+    {
+        playerAnswer = answer2;
+    }
+
+    public void StringChanged() => playerAnswer = "";
 }
