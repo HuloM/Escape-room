@@ -40,11 +40,12 @@ public class NPCScript : MonoBehaviour, IPuzzle
                 UIBoard, _player, 
             gameObject, DeselectionText);
         
-        if (PlayerInput.Instance.SelectionPressed && dist < 2)
+        if (PlayerInput.Instance.SelectionPressed && dist < 2 && !CompleteFlag)
         {
             foreach (Animator animator in Animators)
                 animator.SetBool(TalkedWithNpc, true);
             _CompletePuzzleSlider.value += 1f;
+            CompleteFlag = true;
         }
     }
 

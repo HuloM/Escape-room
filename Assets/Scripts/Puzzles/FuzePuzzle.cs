@@ -32,7 +32,7 @@ public class FuzePuzzle : MonoBehaviour, IPuzzle
     {
         var dist = Vector3.Distance(transform.position,
             _player.transform.position);
-        if(dist < 5) 
+        if(dist < 2) 
             Interact.InteractWithObject(
                 UIBoard, _player, 
             gameObject, DeselectionText);

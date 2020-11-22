@@ -1,14 +1,13 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class KeypadPuzzle : MonoBehaviour, IPuzzle
+public class MathPuzzle : MonoBehaviour, IPuzzle
 {
-    
-    
     [SerializeField] private Item _rewardItem;
     [SerializeField] private int keyPadNumber;
     [SerializeField] private GameObject UIBoard;
@@ -24,15 +23,14 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
 
     private void Awake()
     {
-        if(RewardItem == null)
-            NoRewardItem();
         CompleteFlag = false;
         DeselectionText = GameObject.FindGameObjectWithTag(
             "DeselectionText").GetComponent<TMP_Text>();
-        keyPadNumber = NumberGeneration();
-        keyPadNumberText.text = keyPadNumber.ToString();
+        keyPadNumberText.text = "100 + 100/2";
+        keyPadNumber = 150;
         _player = FindObjectOfType<Player>();
-        _CompletePuzzleSlider = GameObject.FindGameObjectWithTag("CompletePuzzle").GetComponent<Slider>();
+        _CompletePuzzleSlider = GameObject.FindGameObjectWithTag(
+            "CompletePuzzle").GetComponent<Slider>();
     }
 
     private void Update()
@@ -42,7 +40,7 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
         if(dist < 2)
             Interact.InteractWithObject(
                 UIBoard, _player, 
-            gameObject, DeselectionText);
+                gameObject, DeselectionText);
 
         if (playerNumber == keyPadNumber && !CompleteFlag)
         {
@@ -50,10 +48,6 @@ public class KeypadPuzzle : MonoBehaviour, IPuzzle
             _CompletePuzzleSlider.value += 1;
         }
     }
-
-    private void GiveRewardItem() => _rewardItem.gameObject.SetActive(true);
-
-    public int NumberGeneration() => Random.Range(10000,99999);
 
     public void NoRewardItem() => Debug.Log(
         "Please add a reward item to be given on completion");

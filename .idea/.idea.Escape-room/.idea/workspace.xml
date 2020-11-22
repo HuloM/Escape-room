@@ -40,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFC774E3-9F15-4E8B-ACC0-AAE5397B53AE/d9/ba235427/Cursor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/MathPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,22 +58,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MusicButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ResetButton.cs" />
         <option value="$PROJECT_DIR$/Assets/FuzePuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/FuzePuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Riddle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPCScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interact.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/RestartButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/levelSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/MathPuzzle.cs" />
       </list>
     </option>
   </component>

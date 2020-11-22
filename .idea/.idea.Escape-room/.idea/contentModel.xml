@@ -58,6 +58,7 @@
             <e p="Interact.cs" t="Include" />
             <e p="IPuzzle.cs" t="Include" />
             <e p="KeypadPuzzle.cs" t="Include" />
+            <e p="MathPuzzle.cs" t="Include" />
             <e p="Riddle.cs" t="Include" />
           </e>
           <e p="Rotator.cs" t="Include" />

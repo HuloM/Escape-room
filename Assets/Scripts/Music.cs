@@ -5,7 +5,7 @@ public class Music : MonoBehaviour
     private AudioSource _audioSource;
     private void Awake()
     {
-        _audioSource = GetComponent<AudioSource>();
+        _audioSource = GameObject.FindWithTag("Music").GetComponent<AudioSource>();
     }
  
     public void PlayMusic()

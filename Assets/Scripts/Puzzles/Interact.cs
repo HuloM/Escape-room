@@ -11,7 +11,7 @@ public static class Interact
             interactionObject.transform.position,
             playergameObject.transform.position);
 
-        if (dist < 3 && PlayerInput.Instance.SelectionPressed)
+        if (PlayerInput.Instance.SelectionPressed)
             PuzzleIsActive(true, tmpText, uiBoard, playergameObject);
         else if (PlayerInput.Instance.DeSelectionPressed || dist > 3)
             PuzzleIsActive(false, tmpText, uiBoard, playergameObject);
