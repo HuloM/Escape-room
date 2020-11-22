@@ -2,35 +2,22 @@
 
 public class Music : MonoBehaviour
 {
-    [SerializeField] private AudioSource _audioSource;
-    private bool _isPlaying = true;
+    private AudioSource _audioSource;
     private void Awake()
     {
+        DontDestroyOnLoad(transform.gameObject);
         _audioSource = GetComponent<AudioSource>();
     }
  
     public void PlayMusic()
     {
-        if (_isPlaying) return;
-        _audioSource.UnPause();
-        _isPlaying = true;
+        if (_audioSource.isPlaying) return;
+        _audioSource.Play();
     }
  
     public void StopMusic()
     {
-        _audioSource.Pause();
-        _isPlaying = false;
-    }
-
-    public void ToggleMusic()
-    {
-        if (_isPlaying)
-        {
-            StopMusic();
-        }
-        else
-        {
-            PlayMusic();
-        }
+        _audioSource.Stop();
+        _audioSource.gameObject.SetActive(false);
     }
 }

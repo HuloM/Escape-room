@@ -29,4 +29,10 @@ public class SaveDataSerializer
 
         return saveData;
     }
+
+    public void reset()
+    {
+        DirectoryInfo dir = new DirectoryInfo(SAVE_PATH);
+        dir.Delete();
+    }
 }
