@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Inventory _inventory;
 
     public Stats Stats { get; private set; }
+    public bool Frozen { get; set; }
 
     private void Awake()
     {
@@ -35,11 +36,15 @@ public class Player : MonoBehaviour
     {
         if (Pause.Active)
             return;
-        
-       _mover.Tick();
-       _rotator.Tick();
-       
-       if(Input.GetKeyDown(KeyCode.M))
+
+        if (!Frozen)
+        {
+            _mover.Tick();
+            _rotator.Tick();
+        }
+
+        if(Input.GetKeyDown(KeyCode.M))
            FindObjectOfType<GameStateMachine>().LevelTwoAccessGranted(true);
     }
+
 }

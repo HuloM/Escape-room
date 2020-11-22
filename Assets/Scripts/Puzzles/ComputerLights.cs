@@ -17,8 +17,6 @@ public class ComputerLights : MonoBehaviour, IPuzzle
 
     public void Start()
     {
-        if(RewardItem == null)
-            NoRewardItem();
         CompleteFlag = false;
         DeselectionText = GameObject.FindGameObjectWithTag(
             "DeselectionText").GetComponent<TMP_Text>();

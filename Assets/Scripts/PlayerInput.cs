@@ -36,7 +36,7 @@ public class PlayerInput : MonoBehaviour, IPlayerInput
 
     public bool PausePressed => Input.GetKeyDown(KeyCode.Escape);
     public bool SelectionPressed => Input.GetKeyDown(KeyCode.E);
-    public bool DeSelectionPressed => Input.GetKeyDown(KeyCode.R);
+    public bool DeSelectionPressed => Input.GetKeyDown(KeyCode.B);
     public Vector2 MousePosition => Input.mousePosition;
     public bool GetKeyDown(KeyCode keyCode) => Input.GetKeyDown(keyCode);
 }

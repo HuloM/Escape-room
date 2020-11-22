@@ -33,10 +33,14 @@ public class NPCScript : MonoBehaviour, IPuzzle
 
     private void Update()
     {
-        Interact.InteractWithObject(
-            UIBoard, _player, 
+        var dist = Vector3.Distance(transform.position, 
+            _player.transform.position);
+        if(dist < 5)
+            Interact.InteractWithObject(
+                UIBoard, _player, 
             gameObject, DeselectionText);
-        if (PlayerInput.Instance.SelectionPressed)
+        
+        if (PlayerInput.Instance.SelectionPressed && dist < 2)
         {
             foreach (Animator animator in Animators)
                 animator.SetBool(TalkedWithNpc, true);

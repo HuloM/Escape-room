@@ -12,17 +12,18 @@ public static class Interact
             playergameObject.transform.position);
 
         if (dist < 3 && PlayerInput.Instance.SelectionPressed)
-            PuzzleIsActive(true, tmpText, uiBoard);
+            PuzzleIsActive(true, tmpText, uiBoard, playergameObject);
         else if (PlayerInput.Instance.DeSelectionPressed || dist > 3)
-            PuzzleIsActive(false, tmpText, uiBoard);
+            PuzzleIsActive(false, tmpText, uiBoard, playergameObject);
     }
     
 
-    private static void PuzzleIsActive(bool isActive, TMP_Text tmpText, GameObject uiBoard)
+    private static void PuzzleIsActive(bool isActive, TMP_Text tmpText, GameObject uiBoard, Player playergameObject)
     {
         Cursor.lockState = isActive? CursorLockMode.None : CursorLockMode.Locked;
         Cursor.visible = isActive;
         tmpText.enabled = isActive;
         uiBoard.SetActive(isActive);
+        playergameObject.Frozen = isActive;
     }
 }
