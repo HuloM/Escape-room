@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="45f7d138-57a2-4cbe-81b5-ea3859212ce0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Music.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +45,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
         <option value="$PROJECT_DIR$/Assets/SaveData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/IInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
@@ -54,13 +57,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/NPCQuest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MusicButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractRaycast.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/NPCScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/KeypadPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/ComputerLights.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Riddle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +122,7 @@
       <workItem from="1605908781792" duration="3449000" />
       <workItem from="1606016511928" duration="455000" />
       <workItem from="1606018190460" duration="2333000" />
+      <workItem from="1606075679444" duration="1935000" />
     </task>
     <servers />
   </component>

@@ -76,9 +76,9 @@ public class GameStateMachine : MonoBehaviour
         }
     }
 
-    public void LevelTwoAccessGranted()
+    public void LevelTwoAccessGranted(bool granted)
     {
-        _saveData.levelTwoAccess = true;
+        _saveData.levelTwoAccess = granted;
 
         _saveDataSerializer.save(_saveData);
     }
