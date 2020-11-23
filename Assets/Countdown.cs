@@ -11,12 +11,15 @@ public class Countdown : MonoBehaviour
 
     private TMP_Text timerText;
 
-    public bool outOfTime = false;
+    public static bool outOfTime;
+    public static Countdown _instance;
     
     // Start is called before the first frame update
     void Start()
     {
+        _instance = this;
         currentTime = startingTime;
+        outOfTime = false;
         timerText = gameObject.GetComponent<TMP_Text>();
     }
 
