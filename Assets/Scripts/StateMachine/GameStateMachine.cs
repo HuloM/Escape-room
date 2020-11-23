@@ -46,6 +46,7 @@ public class GameStateMachine : MonoBehaviour
         _stateMachine.AddTransition(play, pause, () => PlayerInput.Instance.PausePressed);
         _stateMachine.AddTransition(pause, play, () => PlayerInput.Instance.PausePressed);
         _stateMachine.AddTransition(pause, menu, () => RestartButton.Pressed);
+        _stateMachine.AddTransition(play,menu, () => ChangeLevel.changeLevelToMenu);
     }
 
 

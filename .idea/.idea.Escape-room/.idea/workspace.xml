@@ -34,11 +34,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ResetButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RetrivePuzzle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.1.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/MathPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RetrivePuzzle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeLevel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,7 +67,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/RestartButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/levelSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPCScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/MathPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzles/Interact.cs" />
@@ -77,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/RetrivePuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/PlantRiddle.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +134,7 @@
       <workItem from="1606016511928" duration="455000" />
       <workItem from="1606018190460" duration="2333000" />
       <workItem from="1606075679444" duration="1935000" />
+      <workItem from="1606105089951" duration="394000" />
     </task>
     <servers />
   </component>
