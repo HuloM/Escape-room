@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f7d138-57a2-4cbe-81b5-ea3859212ce0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-room/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Countdown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Countdown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RetrivePuzzle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RetrivePuzzle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +40,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ResetButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RetrivePuzzle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveDataSerializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Countdown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.1.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EscapedScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/MathPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -78,6 +83,7 @@
         <option value="$PROJECT_DIR$/Assets/ChangeLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Countdown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EscapedScript.cs" />
       </list>
     </option>
   </component>
